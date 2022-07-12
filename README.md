@@ -1,4 +1,4 @@
-# Deep-BVQM: 
+# Deep-BVQM
 # Development of a Bitstream-based Video Quality Prediction Model Using Deep Learning Techniques for Gaming Streaming Services
 
 This repository provides the code for testing the Deep-BGVQ model, a two-step model designed for predicting the quality of videos at frame level as well as video level using bitstream information. With this repo, the bitstream information of two dataset are provided.  The current model only works for 1080p resolution videos under encoding setting provided in the range of paratmers section. For ease of testing, a dataset named Kingston University Gaming Video Dataset (KUGVD) is provided, along with corresponding VMAF and MOS values. 
