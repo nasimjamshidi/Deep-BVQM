@@ -3,6 +3,9 @@
 
 This repository provides the code for testing the Deep-BGVQ model, a two-step model designed for predicting the quality of videos at frame level as well as video level using bitstream information. With this repo, the bitstream information of two dataset are provided.  The current model only works for 1080p resolution videos under encoding setting provided in the range of paratmers section. For ease of testing, a dataset named Kingston University Gaming Video Dataset (KUGVD) is provided, along with corresponding VMAF and MOS values. 
 
+## Access to the paper
+The full paper published by the ACM Digital Library, is available at this [link](https://dl.acm.org/doi/abs/10.1145/3503161.3548374).
+
 ## Kingston University Gaming Video Dataset (KUGVD)
 
 KUGVD is one of the datasets available for estimating game video quality. It includes six raw game videos with 30-second durations, 30 frames per second, 24 resolution-bitrate pairings encoded with H.264/MPEG-AVC, and in total 144 distorted gaming sequences for training. In addition, VMAF and MOS values for 90 sequences are measured, which may be utilized as a validation set. In this repo only the 1080p resolution data are provided. 
